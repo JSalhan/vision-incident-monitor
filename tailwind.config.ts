@@ -61,6 +61,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// SecureSight custom colors
+				dashboard: 'hsl(var(--dashboard-bg))',
+				panel: 'hsl(var(--panel-bg))',
+				incident: {
+					critical: 'hsl(var(--incident-critical))',
+					warning: 'hsl(var(--incident-warning))',
+					info: 'hsl(var(--incident-info))',
+					success: 'hsl(var(--incident-success))'
 				}
 			},
 			borderRadius: {
